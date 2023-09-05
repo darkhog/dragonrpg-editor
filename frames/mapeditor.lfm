@@ -1,0 +1,30 @@
+object MapEditorFrame: TMapEditorFrame
+  Left = 0
+  Height = 489
+  Top = 0
+  Width = 657
+  ClientHeight = 489
+  ClientWidth = 657
+  TabOrder = 0
+  DesignLeft = 602
+  DesignTop = 369
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 489
+    Top = 0
+    Width = 657
+    HorzScrollBar.Smooth = True
+    VertScrollBar.Smooth = True
+    Align = alClient
+    AutoScroll = False
+    ClientHeight = 485
+    ClientWidth = 653
+    TabOrder = 0
+    object MapPaint: TPaintBox
+      Left = 0
+      Height = 105
+      Top = 0
+      Width = 105
+    end
+  end
+end

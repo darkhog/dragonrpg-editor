@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Debug"/>
+    <Units>
+      <Unit>
+        <Filename Value="dragonrpg.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="dragonRPG"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="63"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mnfrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Main"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="38" Y="10"/>
+        <UsageCount Value="63"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frames\tileselector.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TileSelectorFrame"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="TileSelector"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="18"/>
+        <UsageCount Value="63"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frames\mapeditor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MapEditorFrame"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos Y="32"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RPGTypes"/>
+        <TopLine Value="54"/>
+        <CursorPos X="38" Y="79"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\jvcllaz\run\JvJans\jvsimlogic.pas"/>
+        <UnitName Value="JvSimLogic"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="119"/>
+        <CursorPos X="15" Y="136"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\jvcllaz\run\JvCustomControls\jvtmtimeline.pas"/>
+        <UnitName Value="JvTMTimeLine"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="415"/>
+        <CursorPos X="3" Y="420"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d:\lazarus\lcl\buttons.pp"/>
+        <UnitName Value="Buttons"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="470"/>
+        <CursorPos X="14" Y="484"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d:\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="77"/>
+        <CursorPos X="3" Y="97"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d:\lazarus\lcl\imglist.pp"/>
+        <UnitName Value="ImgList"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="340"/>
+        <CursorPos X="3" Y="266"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="481"/>
+        <CursorPos X="17" Y="498"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="41" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="61" Column="32" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="57" Column="34" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="59" Column="34" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="61" Column="34" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="62" Column="44" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="63" Column="55" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="65" Column="55" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="70" Column="3" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="77" Column="3" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="frames\mapeditor.pas"/>
+        <Caret Line="8" Column="47"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="72" Column="76" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="73" Column="76" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="74" Column="76" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="mnfrm.pas"/>
+        <Caret Line="75" Column="76" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="frames\mapeditor.pas"/>
+        <Caret Line="9" Column="56"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="17" Column="42"/>
+      </Position>
+      <Position>
+        <Filename Value="d:\lazarus\lcl\controls.pp"/>
+        <Caret Line="2477" Column="3" TopLine="2466"/>
+      </Position>
+      <Position>
+        <Filename Value="d:\lazarus\lcl\controls.pp"/>
+        <Caret Line="420" Column="3" TopLine="415"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="13" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="16" Column="50"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="21" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="19" Column="62"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="31" Column="15" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="34" Column="6" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="37" Column="30" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="82" Column="24" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="RPGClasses\rpgtypes.pas"/>
+        <Caret Line="52" Column="11" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="frames\mapeditor.pas"/>
+        <Caret Line="9" Column="56"/>
+      </Position>
+      <Position>
+        <Filename Value="frames\mapeditor.pas"/>
+        <Caret Line="22" Column="34"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

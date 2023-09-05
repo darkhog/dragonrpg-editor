@@ -1,0 +1,796 @@
+
+*******************************************************************************
+after parsing
+ScrollBox1Click(TObject);
+*******************************************************************************
+(blockn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+   (statementn, resultdef = <nil>, pos = (32,37), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (32,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_isproperty], cmplx = 255
+         proc = SetColor(<TPen>;TGraphicsColor);
+         methodpointer =
+         (subscriptn, resultdef = TPen = "TPen", pos = (32,22), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_isproperty,nf_no_lvalue], cmplx = 7
+            (subscriptn, resultdef = TCanvas = "TCanvas", pos = (32,18), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_isproperty,nf_no_lvalue], cmplx = 5
+               (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (32,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 3
+                  (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (32,11), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+                     nil
+                     symbol = self
+                  )
+               )
+            )
+         )
+         left =
+         (callparan, resultdef = TGraphicsColor = "LongInt", pos = (32,37), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (ordconstn, resultdef = TGraphicsColor = "LongInt", pos = (32,37), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+               value = 0
+            )
+
+         )
+         (callparan, resultdef = <nil>, pos = (32,28), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (nothingn, resultdef = $void = "untyped", pos = (32,28), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (33,32), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (33,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_isproperty], cmplx = 255
+         proc = SetWidth(<TFPCustomPen>;LongInt);
+         methodpointer =
+         (subscriptn, resultdef = TPen = "TPen", pos = (33,22), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_isproperty,nf_no_lvalue], cmplx = 7
+            (subscriptn, resultdef = TCanvas = "TCanvas", pos = (33,18), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_isproperty,nf_no_lvalue], cmplx = 5
+               (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (33,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 3
+                  (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (33,11), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+                     nil
+                     symbol = self
+                  )
+               )
+            )
+         )
+         left =
+         (callparan, resultdef = LongInt = "LongInt", pos = (33,32), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (33,32), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+               value = 16
+            )
+
+         )
+         (callparan, resultdef = <nil>, pos = (33,28), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (nothingn, resultdef = $void = "untyped", pos = (33,28), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (34,39), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (34,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+         proc = Ellipse(<TCanvas>;LongInt;LongInt;LongInt;LongInt);
+         methodpointer =
+         (subscriptn, resultdef = TCanvas = "TCanvas", pos = (34,18), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_isproperty,nf_no_lvalue], cmplx = 5
+            (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (34,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 3
+               (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (34,11), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+                  nil
+                  symbol = self
+               )
+            )
+         )
+         left =
+         (callparan, resultdef = LongInt = "LongInt", pos = (34,38), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (34,38), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+               value = 100
+            )
+
+         )
+         (callparan, resultdef = LongInt = "LongInt", pos = (34,34), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (34,34), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+               value = 100
+            )
+
+         )
+         (callparan, resultdef = LongInt = "LongInt", pos = (34,30), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (34,30), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+               value = 0
+            )
+
+         )
+         (callparan, resultdef = LongInt = "LongInt", pos = (34,28), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (34,28), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+               value = 0
+            )
+
+         )
+         (callparan, resultdef = <nil>, pos = (34,39), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (nothingn, resultdef = $void = "untyped", pos = (34,39), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+            )
+
+         )
+      )
+
+   )
+)
+
+*******************************************************************************
+after the firstpass
+ScrollBox1Click(TObject);
+*******************************************************************************
+(blockn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_usercode_entry], cmplx = 255
+   (statementn, resultdef = <nil>, pos = (32,37), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (32,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_isproperty], cmplx = 255
+         proc = SetColor(<TPen>;TGraphicsColor);
+         methodpointer =
+         (subscriptn, resultdef = TPen = "TPen", pos = (32,22), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 7
+            (subscriptn, resultdef = TCanvas = "TCanvas", pos = (32,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+               (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (32,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                  (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (32,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                     nil
+                     symbol = self
+                  )
+               )
+            )
+         )
+         left =
+         (callparan, resultdef = <nil>, pos = (32,28), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 8
+            (subscriptn, resultdef = TPen = "TPen", pos = (32,22), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 7
+               (subscriptn, resultdef = TCanvas = "TCanvas", pos = (32,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+                  (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (32,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                     (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (32,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                        nil
+                        symbol = self
+                     )
+                  )
+               )
+            )
+
+         )
+         (callparan, resultdef = TGraphicsColor = "LongInt", pos = (32,37), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+            (ordconstn, resultdef = TGraphicsColor = "LongInt", pos = (32,37), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+               value = 0
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (33,32), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (33,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_isproperty], cmplx = 255
+         proc = SetWidth(<TFPCustomPen>;LongInt);
+         methodpointer =
+         (subscriptn, resultdef = TPen = "TPen", pos = (33,22), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 7
+            (subscriptn, resultdef = TCanvas = "TCanvas", pos = (33,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+               (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (33,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                  (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (33,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                     nil
+                     symbol = self
+                  )
+               )
+            )
+         )
+         left =
+         (callparan, resultdef = <nil>, pos = (33,28), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 8
+            (subscriptn, resultdef = TPen = "TPen", pos = (33,22), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 7
+               (subscriptn, resultdef = TCanvas = "TCanvas", pos = (33,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+                  (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (33,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                     (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (33,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                        nil
+                        symbol = self
+                     )
+                  )
+               )
+            )
+
+         )
+         (callparan, resultdef = LongInt = "LongInt", pos = (33,32), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (33,32), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+               value = 16
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (34,39), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (34,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+         proc = Ellipse(<TCanvas>;LongInt;LongInt;LongInt;LongInt);
+         methodpointer =
+         (subscriptn, resultdef = TCanvas = "TCanvas", pos = (34,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+            (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (34,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+               (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (34,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                  nil
+                  symbol = self
+               )
+            )
+         )
+         left =
+         (callparan, resultdef = LongInt = "LongInt", pos = (34,38), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (34,38), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+               value = 100
+            )
+
+         )
+         (callparan, resultdef = <nil>, pos = (34,39), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 6
+            (subscriptn, resultdef = TCanvas = "TCanvas", pos = (34,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+               (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (34,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                  (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (34,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                     nil
+                     symbol = self
+                  )
+               )
+            )
+
+         )
+         (callparan, resultdef = LongInt = "LongInt", pos = (34,34), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (34,34), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+               value = 100
+            )
+
+         )
+         (callparan, resultdef = LongInt = "LongInt", pos = (34,30), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (34,30), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+               value = 0
+            )
+
+         )
+         (callparan, resultdef = LongInt = "LongInt", pos = (34,28), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+            (ordconstn, resultdef = LongInt = "LongInt", pos = (34,28), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+               value = 0
+            )
+
+         )
+      )
+
+   )
+)
+
+*******************************************************************************
+right before code generation
+ScrollBox1Click(TObject);
+*******************************************************************************
+(blockn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+   (statementn, resultdef = <nil>, pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (nothingn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 0
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (blockn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 0
+         nil
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (blockn, resultdef = $void = "untyped", pos = (31,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_usercode_entry], cmplx = 255
+         (statementn, resultdef = <nil>, pos = (32,37), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+            (calln, resultdef = $void = "untyped", pos = (32,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_isproperty], cmplx = 255
+               proc = SetColor(<TPen>;TGraphicsColor);
+               methodpointer =
+               (subscriptn, resultdef = TPen = "TPen", pos = (32,22), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 7
+                  (subscriptn, resultdef = TCanvas = "TCanvas", pos = (32,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+                     (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (32,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                        (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (32,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                           nil
+                           symbol = self
+                        )
+                     )
+                  )
+               )
+               left =
+               (callparan, resultdef = <nil>, pos = (32,28), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 8
+                  (subscriptn, resultdef = TPen = "TPen", pos = (32,22), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 7
+                     (subscriptn, resultdef = TCanvas = "TCanvas", pos = (32,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+                        (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (32,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                           (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (32,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                              nil
+                              symbol = self
+                           )
+                        )
+                     )
+                  )
+
+               )
+               (callparan, resultdef = TGraphicsColor = "LongInt", pos = (32,37), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+                  (ordconstn, resultdef = TGraphicsColor = "LongInt", pos = (32,37), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+                     value = 0
+                  )
+
+               )
+            )
+
+         )
+         (statementn, resultdef = <nil>, pos = (33,32), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+            (calln, resultdef = $void = "untyped", pos = (33,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_isproperty], cmplx = 255
+               proc = SetWidth(<TFPCustomPen>;LongInt);
+               methodpointer =
+               (subscriptn, resultdef = TPen = "TPen", pos = (33,22), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 7
+                  (subscriptn, resultdef = TCanvas = "TCanvas", pos = (33,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+                     (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (33,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                        (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (33,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                           nil
+                           symbol = self
+                        )
+                     )
+                  )
+               )
+               left =
+               (callparan, resultdef = <nil>, pos = (33,28), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 8
+                  (subscriptn, resultdef = TPen = "TPen", pos = (33,22), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 7
+                     (subscriptn, resultdef = TCanvas = "TCanvas", pos = (33,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+                        (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (33,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                           (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (33,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                              nil
+                              symbol = self
+                           )
+                        )
+                     )
+                  )
+
+               )
+               (callparan, resultdef = LongInt = "LongInt", pos = (33,32), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+                  (ordconstn, resultdef = LongInt = "LongInt", pos = (33,32), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+                     value = 16
+                  )
+
+               )
+            )
+
+         )
+         (statementn, resultdef = <nil>, pos = (34,39), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+            (calln, resultdef = $void = "untyped", pos = (34,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+               proc = Ellipse(<TCanvas>;LongInt;LongInt;LongInt;LongInt);
+               methodpointer =
+               (subscriptn, resultdef = TCanvas = "TCanvas", pos = (34,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+                  (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (34,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                     (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (34,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                        nil
+                        symbol = self
+                     )
+                  )
+               )
+               left =
+               (callparan, resultdef = LongInt = "LongInt", pos = (34,38), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+                  (ordconstn, resultdef = LongInt = "LongInt", pos = (34,38), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+                     value = 100
+                  )
+
+               )
+               (callparan, resultdef = <nil>, pos = (34,39), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 6
+                  (subscriptn, resultdef = TCanvas = "TCanvas", pos = (34,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_isproperty,nf_no_lvalue], cmplx = 5
+                     (subscriptn, resultdef = TPaintBox = "TPaintBox", pos = (34,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 3
+                        (loadn, resultdef = TMapEditorFrame = "TMapEditorFrame", pos = (34,11), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                           nil
+                           symbol = self
+                        )
+                     )
+                  )
+
+               )
+               (callparan, resultdef = LongInt = "LongInt", pos = (34,34), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+                  (ordconstn, resultdef = LongInt = "LongInt", pos = (34,34), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+                     value = 100
+                  )
+
+               )
+               (callparan, resultdef = LongInt = "LongInt", pos = (34,30), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+                  (ordconstn, resultdef = LongInt = "LongInt", pos = (34,30), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+                     value = 0
+                  )
+
+               )
+               (callparan, resultdef = LongInt = "LongInt", pos = (34,28), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [], cmplx = 1
+                  (ordconstn, resultdef = LongInt = "LongInt", pos = (34,28), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+                     value = 0
+                  )
+
+               )
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (35,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (35,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (35,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (blockn, resultdef = $void = "untyped", pos = (35,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 0
+         nil
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (35,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (35,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+)
+
+*******************************************************************************
+after parsing
+$MAPEDITOR_$$_init$; Register;
+*******************************************************************************
+nil
+
+*******************************************************************************
+after parsing
+$main; Register;
+*******************************************************************************
+(blockn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+   (statementn, resultdef = <nil>, pos = (19,35), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+      (assignn, resultdef = $void = "untyped", pos = (19,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 2
+         (loadn, resultdef = Boolean = "Boolean", pos = (19,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_write], cmplx = 1
+            nil
+            symbol = REQUIREDERIVEDFORMRESOURCE
+         )
+         (ordconstn, resultdef = Boolean = "Boolean", pos = (19,31), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+            value = 1
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (20,27), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+      (assignn, resultdef = $void = "untyped", pos = (20,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 4
+         (subscriptn, resultdef = Boolean = "Boolean", pos = (20,21), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_write,nf_isproperty], cmplx = 3
+            (loadn, resultdef = TApplication = "TApplication", pos = (20,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+               nil
+               symbol = APPLICATION
+            )
+         )
+         (ordconstn, resultdef = Boolean = "Boolean", pos = (20,23), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+            value = 1
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (21,25), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (21,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+         proc = Initialize(<TApplication>);
+         methodpointer =
+         (loadn, resultdef = TApplication = "TApplication", pos = (21,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            nil
+            symbol = APPLICATION
+         )
+         left =
+         (callparan, resultdef = <nil>, pos = (21,25), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (nothingn, resultdef = $void = "untyped", pos = (21,25), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (22,38), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (22,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+         proc = CreateForm(<TApplication>;TComponentClass;out <Formal type>);
+         methodpointer =
+         (loadn, resultdef = TApplication = "TApplication", pos = (22,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            nil
+            symbol = APPLICATION
+         )
+         left =
+         (callparan, resultdef = $formal = "<Formal type>", pos = (22,37), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 2
+            (loadn, resultdef = TMain = "TMain", pos = (22,37), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [nf_write,nf_address_taken], cmplx = 1
+               nil
+               symbol = MAIN
+            )
+
+         )
+         (callparan, resultdef = TComponentClass = "Class Of TComponent", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (typeconvn, resultdef = TComponentClass = "Class Of TComponent", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1, convtype = tc_equal, convnodeflags = []
+               (loadvmtaddrn, resultdef = <no type symbol> = "Class Of TMain", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+                  (typen, resultdef = TMain = "TMain", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+                  )
+               )
+            )
+
+         )
+         (callparan, resultdef = <nil>, pos = (22,38), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (nothingn, resultdef = $void = "untyped", pos = (22,38), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (23,18), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (23,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+         proc = Run(<TApplication>);
+         methodpointer =
+         (loadn, resultdef = TApplication = "TApplication", pos = (23,3), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            nil
+            symbol = APPLICATION
+         )
+         left =
+         (callparan, resultdef = <nil>, pos = (23,18), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 1
+            (nothingn, resultdef = $void = "untyped", pos = (23,18), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 0
+            )
+
+         )
+      )
+
+   )
+)
+
+*******************************************************************************
+after the firstpass
+$main; Register;
+*******************************************************************************
+(blockn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_usercode_entry], cmplx = 255
+   (statementn, resultdef = <nil>, pos = (19,35), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (assignn, resultdef = $void = "untyped", pos = (19,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 2
+         (loadn, resultdef = Boolean = "Boolean", pos = (19,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_write], cmplx = 1
+            nil
+            symbol = REQUIREDERIVEDFORMRESOURCE
+         )
+         (ordconstn, resultdef = Boolean = "Boolean", pos = (19,31), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+            value = 1
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (20,27), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (assignn, resultdef = $void = "untyped", pos = (20,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 4
+         (subscriptn, resultdef = Boolean = "Boolean", pos = (20,21), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_write,nf_isproperty], cmplx = 3
+            (loadn, resultdef = TApplication = "TApplication", pos = (20,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+               nil
+               symbol = APPLICATION
+            )
+         )
+         (ordconstn, resultdef = Boolean = "Boolean", pos = (20,23), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+            value = 1
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (21,25), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (21,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+         proc = Initialize(<TApplication>);
+         methodpointer =
+         (loadn, resultdef = TApplication = "TApplication", pos = (21,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+            nil
+            symbol = APPLICATION
+         )
+         left =
+         (callparan, resultdef = <nil>, pos = (21,25), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 2
+            (loadn, resultdef = TApplication = "TApplication", pos = (21,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+               nil
+               symbol = APPLICATION
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (22,38), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (22,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+         proc = CreateForm(<TApplication>;TComponentClass;out <Formal type>);
+         methodpointer =
+         (loadn, resultdef = TApplication = "TApplication", pos = (22,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+            nil
+            symbol = APPLICATION
+         )
+         left =
+         (callparan, resultdef = $formal = "<Formal type>", pos = (22,37), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 2
+            (loadn, resultdef = TMain = "TMain", pos = (22,37), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_write,nf_address_taken], cmplx = 1
+               nil
+               symbol = MAIN
+            )
+
+         )
+         (callparan, resultdef = <nil>, pos = (22,38), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 2
+            (loadn, resultdef = TApplication = "TApplication", pos = (22,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+               nil
+               symbol = APPLICATION
+            )
+
+         )
+         (callparan, resultdef = TComponentClass = "Class Of TComponent", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_REG, flags = [], cmplx = 1
+            (typeconvn, resultdef = TComponentClass = "Class Of TComponent", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_REG, flags = [nf_pass1_done], cmplx = 1, convtype = tc_equal, convnodeflags = []
+               (loadvmtaddrn, resultdef = <no type symbol> = "Class Of TMain", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_REG, flags = [nf_pass1_done], cmplx = 1
+                  (typen, resultdef = TMain = "TMain", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+                  )
+               )
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (23,18), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (calln, resultdef = $void = "untyped", pos = (23,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+         proc = Run(<TApplication>);
+         methodpointer =
+         (loadn, resultdef = TApplication = "TApplication", pos = (23,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+            nil
+            symbol = APPLICATION
+         )
+         left =
+         (callparan, resultdef = <nil>, pos = (23,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 2
+            (loadn, resultdef = TApplication = "TApplication", pos = (23,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+               nil
+               symbol = APPLICATION
+            )
+
+         )
+      )
+
+   )
+)
+
+*******************************************************************************
+right before code generation
+$main; Register;
+*******************************************************************************
+(blockn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+   (statementn, resultdef = <nil>, pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (nothingn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 0
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (blockn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 0
+         nil
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (blockn, resultdef = $void = "untyped", pos = (18,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_usercode_entry], cmplx = 255
+         (statementn, resultdef = <nil>, pos = (19,35), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+            (assignn, resultdef = $void = "untyped", pos = (19,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 2
+               (loadn, resultdef = Boolean = "Boolean", pos = (19,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_write], cmplx = 1
+                  nil
+                  symbol = REQUIREDERIVEDFORMRESOURCE
+               )
+               (ordconstn, resultdef = Boolean = "Boolean", pos = (19,31), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+                  value = 1
+               )
+            )
+
+         )
+         (statementn, resultdef = <nil>, pos = (20,27), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+            (assignn, resultdef = $void = "untyped", pos = (20,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 4
+               (subscriptn, resultdef = Boolean = "Boolean", pos = (20,21), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_write,nf_isproperty], cmplx = 3
+                  (loadn, resultdef = TApplication = "TApplication", pos = (20,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                     nil
+                     symbol = APPLICATION
+                  )
+               )
+               (ordconstn, resultdef = Boolean = "Boolean", pos = (20,23), loc = LOC_INVALID, expectloc = LOC_CONST, flags = [nf_pass1_done], cmplx = 0
+                  value = 1
+               )
+            )
+
+         )
+         (statementn, resultdef = <nil>, pos = (21,25), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+            (calln, resultdef = $void = "untyped", pos = (21,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+               proc = Initialize(<TApplication>);
+               methodpointer =
+               (loadn, resultdef = TApplication = "TApplication", pos = (21,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                  nil
+                  symbol = APPLICATION
+               )
+               left =
+               (callparan, resultdef = <nil>, pos = (21,25), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 2
+                  (loadn, resultdef = TApplication = "TApplication", pos = (21,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                     nil
+                     symbol = APPLICATION
+                  )
+
+               )
+            )
+
+         )
+         (statementn, resultdef = <nil>, pos = (22,38), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+            (calln, resultdef = $void = "untyped", pos = (22,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+               proc = CreateForm(<TApplication>;TComponentClass;out <Formal type>);
+               methodpointer =
+               (loadn, resultdef = TApplication = "TApplication", pos = (22,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                  nil
+                  symbol = APPLICATION
+               )
+               left =
+               (callparan, resultdef = $formal = "<Formal type>", pos = (22,37), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 2
+                  (loadn, resultdef = TMain = "TMain", pos = (22,37), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done,nf_write,nf_address_taken], cmplx = 1
+                     nil
+                     symbol = MAIN
+                  )
+
+               )
+               (callparan, resultdef = <nil>, pos = (22,38), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 2
+                  (loadn, resultdef = TApplication = "TApplication", pos = (22,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                     nil
+                     symbol = APPLICATION
+                  )
+
+               )
+               (callparan, resultdef = TComponentClass = "Class Of TComponent", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_REG, flags = [], cmplx = 1
+                  (typeconvn, resultdef = TComponentClass = "Class Of TComponent", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_REG, flags = [nf_pass1_done], cmplx = 1, convtype = tc_equal, convnodeflags = []
+                     (loadvmtaddrn, resultdef = <no type symbol> = "Class Of TMain", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_REG, flags = [nf_pass1_done], cmplx = 1
+                        (typen, resultdef = TMain = "TMain", pos = (22,31), loc = LOC_INVALID, expectloc = LOC_INVALID, flags = [], cmplx = 255
+                        )
+                     )
+                  )
+
+               )
+            )
+
+         )
+         (statementn, resultdef = <nil>, pos = (23,18), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+            (calln, resultdef = $void = "untyped", pos = (23,3), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 255
+               proc = Run(<TApplication>);
+               methodpointer =
+               (loadn, resultdef = TApplication = "TApplication", pos = (23,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                  nil
+                  symbol = APPLICATION
+               )
+               left =
+               (callparan, resultdef = <nil>, pos = (23,18), loc = LOC_INVALID, expectloc = LOC_REF, flags = [], cmplx = 2
+                  (loadn, resultdef = TApplication = "TApplication", pos = (23,3), loc = LOC_INVALID, expectloc = LOC_REF, flags = [nf_pass1_done], cmplx = 1
+                     nil
+                     symbol = APPLICATION
+                  )
+
+               )
+            )
+
+         )
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (24,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (24,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (24,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (blockn, resultdef = $void = "untyped", pos = (24,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done], cmplx = 0
+         nil
+      )
+
+   )
+   (statementn, resultdef = <nil>, pos = (24,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [], cmplx = 255
+      (asmn, resultdef = $void = "untyped", pos = (24,1), loc = LOC_INVALID, expectloc = LOC_VOID, flags = [nf_pass1_done,nf_get_asm_position], cmplx = 255
+      )
+
+   )
+)
