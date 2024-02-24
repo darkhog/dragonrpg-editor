@@ -6,8 +6,8 @@ object MapEditorFrame: TMapEditorFrame
   ClientHeight = 489
   ClientWidth = 657
   TabOrder = 0
-  DesignLeft = 602
-  DesignTop = 369
+  DesignLeft = 588
+  DesignTop = 189
   object ScrollBox1: TScrollBox
     Left = 0
     Height = 489

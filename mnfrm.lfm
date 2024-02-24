@@ -1,12 +1,13 @@
 object Main: TMain
-  Left = 574
+  Left = 504
   Height = 660
-  Top = 101
+  Top = 178
   Width = 1037
-  Caption = 'Main'
+  Caption = 'Dragon RPG Creation System'
   ClientHeight = 660
   ClientWidth = 1037
   Menu = MainMenu1
+  Position = poDefault
   LCLVersion = '3.0.0.1'
   object Panel1: TPanel
     Left = 0
@@ -72,6 +73,7 @@ object Main: TMain
     OnClick = ToolBar1Click
     object ToolButton1: TToolButton
       Left = 2
+      Hint = 'Creates a new Project'
       Top = 1
       Caption = 'New Project'
       ImageIndex = 0

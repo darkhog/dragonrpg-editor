@@ -69,14 +69,14 @@ end;
 
 function TRPGTileList.Add(Bitmap: TBGRABitmap): TRPGTile;
 begin
-  Result := inherited Add as THairItem;
+  Result := inherited Add as TRPGTile;
   Result.TileBitmap:=Bitmap;
 end;
 
 function TRPGTileList.Add(ID: LongInt; Name: String; Bitmap: TBGRABitmap
   ): TRPGTile;
 begin
-  Result := inherited Add as THairItem;
+  Result := inherited Add as TRPGTile;
   Result.TileBitmap:=Bitmap;
   Result.TileID:=ID;
   Result.TileName:=Name;

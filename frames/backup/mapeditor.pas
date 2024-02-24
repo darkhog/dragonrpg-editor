@@ -14,7 +14,6 @@ type
   TMapEditorFrame = class(TFrame)
     MapPaint: TPaintBox;
     ScrollBox1: TScrollBox;
-    procedure ScrollBox1Click(Sender: TObject);
   private
 
   public
@@ -27,10 +26,7 @@ implementation
 
 { TMapEditorFrame }
 
-procedure TMapEditorFrame.ScrollBox1Click(Sender: TObject);
-begin
 
-end;
 
 end.
 
